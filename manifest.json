@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "DivOverhaul",
+  "version": "1.0",
+  "description": "Transforms all elements into superior div elements.",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "icon-click.js"
+  },"icons": {
+    "128": "images/icon128.png"
+  },
+  "action": {}
+}
